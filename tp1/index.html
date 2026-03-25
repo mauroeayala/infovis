@@ -64,15 +64,21 @@
     border-radius: 10px;
     max-width: 100%;
   }
-   
+   footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 1em;
+  color: #555;
+  background-color: #eaf2f8;
+  border-top: 2px solid #3498db;
+}
+
 </style>
-
-
-
 
 </head>
 <body>
-  <h1>Visualizando mi vida Digital</h1>
+  <h1>VISUALIZANDO MI VIDA DIGITAL</h1>
   
   <h1>¿Qué apps consumen mi tiempo?</h1>
   <object data="https://mauroeayala.github.io/infovis/tp1/RawGraphs%20Promedios.svg" type="image/svg+xml"></object>
@@ -105,5 +111,9 @@
           var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
           var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
           vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+<footer>
+  Trabajo práctico realizado por <strong>Mauro Ayala</strong>
+</footer>
+
 </body>
 </html>
